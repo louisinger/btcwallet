@@ -1,5 +1,7 @@
 module github.com/btcsuite/btcwallet
 
+replace github.com/btcsuite/btcwallet/wallet/txrules => ./wallet/txrules
+
 require (
 	github.com/btcsuite/btcd v0.24.2-beta.rc1.0.20240625142744-cc26860b4026
 	github.com/btcsuite/btcd/btcec/v2 v2.2.2
